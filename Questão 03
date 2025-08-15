@@ -8,10 +8,9 @@ int main() {
     printf("informe sua idade (short): ");
     scanf("%hd", &anos);
 
-    printf("informe o valor a depositar (int): ");
+    printf("quanto você quer depositar: ");
     scanf("%d", &valorDep);
-
-    printf("informe o numero da conta (long): ");
+    printf("informe o numero da conta : ");
     scanf("%ld", &numConta);
 
     printf("Idade: %hd\n", anos);
