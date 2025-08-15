@@ -5,13 +5,13 @@ int main() {
     int valorDep;
     long numConta;
 
-    printf("Digite sua idade (short): ");
+    printf("informe sua idade (short): ");
     scanf("%hd", &anos);
 
-    printf("Digite o valor a depositar (int): ");
+    printf("informe o valor a depositar (int): ");
     scanf("%d", &valorDep);
 
-    printf("Digite o numero da conta (long): ");
+    printf("informe o numero da conta (long): ");
     scanf("%ld", &numConta);
 
     printf("Idade: %hd\n", anos);
