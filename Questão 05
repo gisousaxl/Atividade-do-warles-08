@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int valor;
+    int n;
     printf("Digite um numero inteiro: ");
-    scanf("%d", &valor);
+    scanf("%d", &n);
 
-    if (valor % 2 == 0 && valor % 3 == 0) {
+    if (n % 2 == 0 && n % 3 == 0) {
         printf("O numero e divisivel por 2 e por 3.\n");
-    } else if (valor % 2 == 0) {
+    } else if (n % 2 == 0) {
         printf("O numero e divisivel por 2, mas nao por 3.\n");
-    } else if (valor % 3 == 0) {
+    } else if (n % 3 == 0) {
         printf("O numero e divisivel por 3, mas nao por 2.\n");
     } else {
         printf("O numero nao e divisivel nem por 2 nem por 3.\n");
